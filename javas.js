@@ -4,7 +4,7 @@ const path = require("path");
 
 const port = 5000;
 const data_file = path.join(__dirname,"yt_data.json");
-const daily_goal = 2;
+const daily_goal = 120;
 
 async function loadData() {
     try{
